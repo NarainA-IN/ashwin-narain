@@ -10,7 +10,7 @@ body {
 .container {
     display: flex;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: auto;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -24,6 +24,7 @@ body {
     padding: 30px;
     width: 30%;
     text-align: center;
+    min-width: 250px;
 }
 
 .sidebar .profile-pic {
@@ -53,7 +54,8 @@ body {
 /* Main Content */
 .content {
     flex: 1;
-    padding: 40px;
+    width: 70%;
+    padding: 20px;
     background: white;
 }
 
