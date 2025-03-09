@@ -28,6 +28,7 @@ body {
 }
 
 .sidebar .profile-pic {
+    display: flex;
     width: 150px;
     height: 150px;
     border-radius: 50%;
